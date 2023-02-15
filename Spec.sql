@@ -38,8 +38,9 @@ Q: Have you ever bought anything specifically for the sale?
 A: No! The donations that I receive and the stuff that I already have are the ONLY items which are put out. Therefore, it's all profit...
 
 Q: Have you ever given away anything for free?
-A: Um...yes. Because of the mess, there are sometimes items lying around which weren't intentionally meant to be put out, and are therefore not tagged.
-   Usually, they are too old or ragged for me to charge the buyer in good consience, and I let them take it for no cost.
+A: Um...yes. Unfortunately I'm pretty gullible and very easily  convinced. It has happened once or twice that certain members of the neighborhood (who know of these weaknesses of mine) have bargained
+   the price down until I had no choice but to let them walk off with the item. I am really working on myself to develop a stronger backbone and I hope this won't happen again. There is an example 
+   of such an instance recorded in the sample data (below), so mark it as "free" in the database.
 
 Q: Do you need to record the donors?
 A: Yes! I forgot to mention this part. If someone gives at least 3 donations (not 3 items, 3 separate drop-offs on 3 separate dates), they receive a complementary
@@ -56,7 +57,7 @@ This is a very small sampling of my inventory, I want to test your competency be
 Tricycle, Red and blue; heavily used but still functional, Recreation, Tom Smith, 11/27/2022, null, $15
 Scarf, Women's; hardly worn, Clothing, Jane Jones, 05/22/2022, 06/14/2022, $5
 Dresser, 5-drawer; slightly shaky but very good condition, Home, Jane Jones, 01/04/2023, null, $35
-Guitar, missing string; small, Recreation, Sam Williams, 07/18/2022, 07/25/2022
+Guitar, missing string; small, Recreation, Sam Williams, 07/18/2022, 07/25/2022, $0
 Lawn-mower, very old model but works, Equipment, Ted Richardson, 08/01/2022, null, $20
 Wallet, Men's; fake leather, Misc, Bob Mill, 06/09/2022, 08/15/2022, $3
 Lamp, pretty new-looking, Home, Jane Jones, 01/16/2023, null, $15
