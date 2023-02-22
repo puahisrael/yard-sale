@@ -24,7 +24,7 @@ from Item i
 where datediff(month, i.DateReceived, getdate()) > 3 
 and i.DateSold is null
 --4) The "t-shirt" neighbor wants to customize the shirts! Show me a list of the "worthy" donors and their t-shirts, formatted as: "Not A Dump", Thanks to YOU, <donor name>!
-select Tshirt = concat('"Not A Dump", Thanks to YOU, ', i.Donor), i.Donor, NumberOfDropOffs = count(distinct i.DateReceived)
+select Tshirt = concat('"Not A Dump", Thanks to YOU, ', i.Donor, '!'), i.Donor, NumberOfDropOffs = count(distinct i.DateReceived)
 from Item i 
 group by i.Donor
 having count(i.Donor) >= 3
